@@ -1,4 +1,4 @@
-package com.avanengineering.conference1.model;
+package com.avanengineering.conference.model;
 
 public class Registration {
     private String name;

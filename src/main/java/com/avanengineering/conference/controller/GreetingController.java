@@ -1,4 +1,4 @@
-package com.avanengineering.conference1.controller;
+package com.avanengineering.conference.controller;
 
 
 import org.springframework.stereotype.Controller;
