@@ -18,7 +18,7 @@ import java.util.Locale;
 @Configuration
 
 public class ConferenceConfig implements WebMvcConfigurer {
-
+// Static resources like PDF or images
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/files/**")

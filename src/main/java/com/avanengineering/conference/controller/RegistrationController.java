@@ -16,8 +16,11 @@ public class RegistrationController {
 
     @PostMapping("registration")
     public String postRegistration(@ModelAttribute("registration")Registration registration){
+
         System.out.println("Registration: "+  registration.getName());
-        return "registration";
+        /* adding redirect to stop the back form submission - Design pattern - Post Redirect Get -
+         avoids resubmit of form data */
+        return "redirect:registration";
     }
 
 }
